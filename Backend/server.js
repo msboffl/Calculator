@@ -8,12 +8,11 @@ const staticFiles = path.join(__dirname, '../frontend');
 
 const frontPath = app.use(express.static(staticFiles));
 
-
 app.get('/', (req, res) => {
     res.send(path.join(frontPath, 'index.html'));
 })
 
-app.listen(PORT, () => {
+app.listen(PORT, () => {``
     console.log(`Serever running at PORT:${PORT}`);
 })
 
