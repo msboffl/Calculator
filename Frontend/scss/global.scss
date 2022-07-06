@@ -1,17 +1,20 @@
-@import "../scss/colors";
-@import "../scss/fonts.scss";
-
+// <====== Colours ======>
+$pure-gray: #a9a9a9;
+$pure-white: #ffff;
+$pure-black: #000;
+$light-black: #454545;
+$pure-red: #ff0000;
 
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
+    background-color: $pure-gray;
+    font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: $light-gray;
-    font-family: "Pacific-Regular", sans-serif;
 }
