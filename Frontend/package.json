@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass ../frontend/scss/main.scss --watch ../frontend/css/main.css"
+    "sass": "node-sass ../frontend/scss/style.scss --watch ../frontend/css/style.css"
   },
   "keywords": [],
   "author": "Mareedu Saibabu",

@@ -1,0 +1,40 @@
+@import "./global.scss";
+
+#AppContainer {
+    display: flex;
+    flex-direction: column;
+    
+    header {
+        margin: .5rem 0;
+        .display {
+            width: 400px;
+            height: 65px;
+            background-color: $pure-white;
+            border: 1.5px solid $pure-red;
+            border-radius: 5px;
+        }
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: .5rem;
+        .row {
+           button {
+                width: 6rem;
+                height: 3.5rem;
+                border-radius: 2rem;
+                margin-bottom: .5rem;
+                font-size: 1.25rem;
+                border: none;
+                cursor: pointer;
+           }
+           .button-blue {
+            color: $pure-white;
+            background-color: $light-black;
+
+           } 
+        }
+    }
+}

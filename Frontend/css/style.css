@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #a9a9a9;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
+
+@font-face {
+  font-family: "Pacific-Regular";
+  src: url("../fonts/Pacifico-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("../fonts/Roboto-Thin.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.ttf"); }
+
+h1 {
+  font-family: 'Finlandica', sans-serif;
+  font-size: 2rem;
+  text-align: center; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #a9a9a9;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
+
+#AppContainer {
+  display: flex;
+  flex-direction: column; }
+  #AppContainer header {
+    margin: .5rem 0; }
+    #AppContainer header .display {
+      width: 400px;
+      height: 65px;
+      background-color: #ffff;
+      border: 1.5px solid #ff0000;
+      border-radius: 5px; }
+  #AppContainer main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: .5rem; }
+    #AppContainer main .row button {
+      width: 6rem;
+      height: 3.5rem;
+      border-radius: 2rem;
+      margin-bottom: .5rem;
+      font-size: 1.25rem;
+      border: none;
+      cursor: pointer; }
+    #AppContainer main .row .button-blue {
+      color: #ffff;
+      background-color: #454545; }

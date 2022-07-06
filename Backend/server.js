@@ -13,6 +13,6 @@ app.get('/', (req, res) => {
 })
 
 app.listen(PORT, () => {``
-    console.log(`Serever running at PORT:${PORT}`);
+    console.log(`Serever running at PORT : ${PORT}`);
 })
 

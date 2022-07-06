@@ -4,42 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="./images/Wineass-Ios7-Redesign-Calculator.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/75fe56c578.js" crossorigin="anonymous"></script>
     <title>Calculator</title>
 </head>
-<body> 
-    <div class="container">
+<body>
+    <div id="AppContainer">
         <h1>Calculator</h1>
-        <header class="header">
-            <div class="display"></div>
+        <header id="header" class="header">
+            <div class="display" id="display"></div>
         </header>
-        <main class="main">
-            <button class="clear" id="clear">AC</button>
-            <button class="back" id="back"><i class="fa-solid fa-delete-left"></i></button>
-            <button class="power" id="power">^</button>
-            <button class="quotient" id="quotient">/</button>
-            <button class="seven" id="seven">7</button>
-            <button class="eight" id="eight">8</button>
-            <button class="nine" id="nine">9</button>
-            <button class="multiplication" id="multiplication">*</button>
-            <button class="four" id="four">4</button>
-            <button class="five" id="five">5</button>
-            <button class="six" id="six">6</button>
-            <button class="substract" id="substract">-</button>
-            <button class="one" id="one">1</button>
-            <button class="two" id="two">2</button>
-            <button class="three" id="three">3</button>
-            <button class="addition" id="additon">+</button>
-            <button class="modulus" id="modulus">%</button>
-            <button class="zero" id="zero">0</button>
-            <button class="dot" id="dot">.</button>
-            <button class="equal" id="equal"> = </button>
+        <main class="main" id="main">
+            <div class="row">
+                <button class="clear button-blue" id="clear">AC</button>
+                <button id="back" class="back button-blue"> ⌫ </button>
+                <button class="factorial button-blue" id="factorial">!</button>
+                <button class="division button-blue" id="division">÷</button>
+            </div>
+            <div class="row">
+                <button class="seven" id="seven">7</button>
+                <button class="eight" id="eight">8</button>
+                <button class="nine" id="nine">9</button>
+                <button class="multiply button-blue" id="multiply">×</button>
+            </div>
+            <div class="row">
+                <button class="four" id="four">4</button>
+                <button class="five" id="five">5</button>
+                <button class="six" id="six">6</button>
+                <button class="substract button-blue" id="substract"> - </button>
+            </div>
+            <div class="row">
+                <button class="one" id="one">1</button>
+                <button class="two" id="two">2</button>
+                <button class="three" id="three">3</button>
+                <button class="addition button-blue" id="addition">+</button>
+            </div>
+            <div class="row">
+                <button class="modulus" id="modulus">%</button>
+                <button class="zero" id="zero">0</button>
+                <button class="myDot" id="myDot"> • </button>
+                <button class="equal button-blue" id="equal"> = </button>
+            </div>
         </main>
-        <footer>
-
-        </footer>  
     </div>
     <script src="./js/main.js"></script>
 </body>
